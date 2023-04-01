@@ -596,9 +596,9 @@ def multilingual_benchmark_contrastive_faiss(args, device):
 def get_args():
     parser = argparse.ArgumentParser(description='Parameters for layer prediction')
     parser.add_argument('--output-dir', type=str, default='multilingual_benchmark')
-    parser.add_argument('--models-dir', type=str, default='models2')
+    parser.add_argument('--models-dir', type=str, default='models')
     parser.add_argument('--languages', type=list, default=['en', 'ar', 'zh', 'ru', 'tr'])
-    parser.add_argument('--num-of-test-embeddings', type=int, default=20)
+    parser.add_argument('--num-of-test-embeddings', type=int, default=5000)
     parser.add_argument('--num-of-train-embeddings', type=int, default=10000)
     parser.add_argument('--split-size', type=int, default=8)
     parser.add_argument('--train-batch-size', type=int, default=1024)
