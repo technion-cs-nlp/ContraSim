@@ -25,7 +25,8 @@ This will run the multilnigual benchmark with SIM_MEAURE. If FAISS is True, eval
 
 ## Image caption benchmark
 <img src="images/image_caption.png" alt="image_caption" style="width:400px;"/>
-Run ```python image_caption_benchmark.py``` . 
+
+Run `python image_caption_benchmark.py` . 
 This will run the image caption benchmark using 4 different model pair (as specified in the paper).
 
 Code used for [CKA](https://github.com/google-research/google-research/tree/master/representation_similarity), [CCA](https://github.com/google/svcca) and [contrastive learning loss](https://github.com/HobbitLong/SupContrast) is based on public available code.
