@@ -1,7 +1,6 @@
 # ContraSim -- A Similarity Measure Based on Contrastive Learning
 
 Code for reproducing results from the paper [ContraSim -- A Similarity Measure Based on Contrastive Learning](https://arxiv.org/abs/2303.16992).
-We introduce TIME (Text-to-Image Model Editing), a method for editing implicit assumptions in text-to-image diffusion models.
 
 ## Dependencies Setup
 
