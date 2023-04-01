@@ -8,7 +8,7 @@ We introduce TIME (Text-to-Image Model Editing), a method for editing implicit a
 Install the required libraries by running `pip install -r requirements.txt`.
 
 ## Layer prediction benchmark
-<img src="images/layer_prediction.png" alt="layer_prediction" style="width:800px;"/>
+<img src="images/layer_prediction.png" alt="layer_prediction" style="width:300px;"/>
 
 Run `python layer_prediction.py -dataset DATASET -sim_measure SIM_MEASURE`. 
 This will run the layer prediction benchmark on dataset DATASET with SIM_MEAURE.
@@ -17,7 +17,7 @@ This will run the layer prediction benchmark on dataset DATASET with SIM_MEAURE.
 - In case you want to run all similarity measures at one pass argument `-do_all`
 
 ## Multilingual benchmark
-<img src="images/multilingual.png" alt="multilingual" style="width:800px;"/>
+<img src="images/multilingual.png" alt="multilingual" style="width:400px;"/>
 
 Run `python multilingual_benchmark.py -sim_measure SIM_MEASURE -faiss FAISS` . 
 This will run the multilnigual benchmark with SIM_MEAURE. If FAISS is True, evaluation will be performed using faiss sampling, otherwise ransom sampling will be used.
@@ -25,21 +25,14 @@ This will run the multilnigual benchmark with SIM_MEAURE. If FAISS is True, eval
 - In case you want to run all similarity measures at one pass argument `-do_all`
 
 ## Image caption benchmark
-<img src="images/image_caption.png" alt="image_caption" style="width:800px;"/>
-Run `python image_caption_benchmark.py` . 
+<img src="images/image_caption.png" alt="image_caption" style="width:400px;"/>
+Run `python image_caption_benchmark.py`. 
 This will run the image caption benchmark using 4 different model pair (as specified in the paper).
 
 Code used for [CKA](https://github.com/google-research/google-research/tree/master/representation_similarity), [CCA](https://github.com/google/svcca) and [contrastive learning loss](https://github.com/HobbitLong/SupContrast) is based on public available code.
 
 ## References and Acknowledgements
 ```
-@article{orgad2023editing,
-    title={Editing Implicit Assumptions in Text-to-Image Diffusion Models},
-    author={Orgad, Hadas and Kawar, Bahjat and Belinkov, Yonatan},
-    journal={arXiv:2303.08084},
-    year={2023}
-}
-
 @article{rahamim2023contrasim,
       title={ContraSim -- A Similarity Measure Based on Contrastive Learning}, 
       author={Adir Rahamim and Yonatan Belinkov},
