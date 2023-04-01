@@ -603,7 +603,7 @@ def get_args():
     parser.add_argument('--split-size', type=int, default=8)
     parser.add_argument('--train-batch-size', type=int, default=1024)
 
-    parser.add_argument('--sim-measure', type=str, default='CKA', choices=['DeepDot', 'DeepCKA', 'contrastive',
+    parser.add_argument('--sim-measure', type=str, default='CKA', choices=['CKA', 'DeepDot', 'DeepCKA', 'contrastive',
                                                                            'contrastive_dis', 'Norm', 'Dot'])
     parser.add_argument('--faiss', action='store_true', default=True)
     parser.add_argument('--do-all', action='store_true', default=False)
